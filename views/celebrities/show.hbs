@@ -1,0 +1,10 @@
+<h2>Details View</h2>
+
+
+{{#with celebritiesFromDB}}
+<h4>{{name}}</h4>
+<p>{{occupation}}</p>
+<p>{{catchPhrase}}</p>
+{{/with}}
+
+<h3> <a href="/celebrities/{{celebritiesFromDB.id}}/edit">Edit a Celebrity</a>  </h3>

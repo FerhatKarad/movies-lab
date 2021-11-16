@@ -1,0 +1,12 @@
+<h2> This Are The Celebrities</h2>
+
+{{#each celebritiesFromDB}}
+<ul>
+<li><a href="/celebrities/{{id}}">{{name}}</a></li>
+<p> <a href="/celebrities/delete/{{_id}}"><button type="submit">Delete Celebrity</button></a></p>
+
+ </ul>
+{{/each}}
+
+<h3> <a href="/celebrities/newForm">Add New Celebrity</a></h3>
+
