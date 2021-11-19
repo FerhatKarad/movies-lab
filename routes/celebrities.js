@@ -17,6 +17,7 @@ router.get('/celebrities/newForm', (req, res, next) => {
 
 })
 
+
 router.post('/celebrities', (req, res, next) => {
     const { name, occupation, catchPhrase } = req.body
     Celebrity.create({

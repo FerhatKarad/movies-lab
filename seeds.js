@@ -1,5 +1,5 @@
 const mongoose = require('mongoose')
-const Celebrity = require('./models/Celebrity')
+const Celebrity = require('./models/celebrity')
 
 // open up the connection to mongo
 mongoose.connect('mongodb://localhost/movies-lab')

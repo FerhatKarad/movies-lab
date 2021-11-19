@@ -1,0 +1,14 @@
+<h1>This are the Movies</h1>  
+
+
+
+{{#each movies}}
+  <h2>Title: {{title}}</h2>
+  <p><strong>Genre: </strong>{{genre}}</p>
+  <p><strong>Plot: </strong>{{plot}}</p>
+  <ul>
+    {{#each cast}}
+      <li>{{name}}</li>
+    {{/each}}
+  </ul>
+{{/each}}
